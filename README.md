@@ -34,7 +34,7 @@ registered
 
 Data Structures used within the files 
 
-The skeleton uses a few data structures which are dened in the dierent program les. You are free to use the
+The skeleton uses a few data structures which are defined in the different program les. You are free to use the
 data structures provided or make new ones of your own. The functions however should be implemented as dened.
 1. Point
 The struct the radial distance and angular distance of a point from the car frame. In this struct there are few
@@ -51,8 +51,8 @@ functions implemented which can be used to derive other information from the poi
 
 
 2. Correspondence
-This struct stores the correspondence values which you nd through the fast search algorithm. It contains
-the transformed points: P, original points : Po , rst best point: Pj1, second best point pj2.
+This struct stores the correspondence values which you find through the fast search algorithm. It contains
+the transformed points: P, original points : Po , first best point: Pj1, second best point pj2.
     getNormal() Get normal of the correspondence
     getPiGeo() get correspondence point as a geometry message
     getPiVec() get correspondence point as a vector message
