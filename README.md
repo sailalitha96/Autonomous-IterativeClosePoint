@@ -30,12 +30,14 @@ registered
 7.  Repeat to determine correspondences etc.
 8. Stop and output final alignment, otherwise 
 
+A snippet of the algorithm running
 
+![icp](https://user-images.githubusercontent.com/25079132/81217077-020f7080-8faa-11ea-9148-b335ed4b1ea5.PNG)
 
 Data Structures used within the files 
 
-The skeleton uses a few data structures which are defined in the different program les. You are free to use the
-data structures provided or make new ones of your own. The functions however should be implemented as dened.
+The skeleton uses a few data structures which are defined in the different program files. You are free to use the
+data structures provided or make new ones of your own. The functions however should be implemented as defined.
 1. Point
 The struct the radial distance and angular distance of a point from the car frame. In this struct there are few
 functions implemented which can be used to derive other information from the points:
